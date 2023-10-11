@@ -1,0 +1,19 @@
+{
+  "name": "sdmrf",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "cloud": "next build && next export && touch out/.nojekyll && gh-pages -d out -b main",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.69.2"
+  }
+}
